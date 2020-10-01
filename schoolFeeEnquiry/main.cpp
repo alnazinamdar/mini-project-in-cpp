@@ -696,7 +696,7 @@ void FEE :: FEE_SLIP(void)
  gotoxy(49,21) ;
  cout <<tt ;
  gotoxy(33,40);
- cout<<"Press any key to return to the main menu........";
+ cout<<"Press any key to return to the main menu........" << endl; //added a new line 
  getch() ;
  mainmenu();
 }
